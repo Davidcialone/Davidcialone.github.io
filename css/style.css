@@ -42,7 +42,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(8, 107, 165);
+    background:linear-gradient(to left top, white, rgb(8, 107, 165) );
     background-repeat: no-repeat;
     background-position: center;
     height:80vh;
