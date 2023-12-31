@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: space-around;
     background:linear-gradient(to left top, white, rgb(8, 107, 165) );
-    background-image: url(../images/Design\ sans\ titre.png);
+    background-image: url(../images/MERMOZ\ FINANCEnew2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 110vh;
@@ -23,14 +23,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
-   color: white;
-   font-size: 4rem;
-   list-style: none;
-   margin-right: 10rem;
-   position: relative;
-   top: -6rem;
-   left: -20rem;
-       }
+    color: white;
+    font-size: 5rem;
+    list-style: none;
+    margin-right: 10rem;
+    position: relative;
+    top: -4rem;
+    }
 
 li{
     background:rgb(3, 66, 102);
@@ -98,10 +97,11 @@ p{
 
 h1{
      text-align: center;
-     font-size: 7rem;
+     font-size: 12rem;
      text-transform: uppercase;
      position: relative;
      bottom: 15%;
+     left: 30rem;
      color: white;
 }
 
@@ -110,7 +110,8 @@ h2{
     text-transform: uppercase;
     font-size:4rem;
     position: relative;
-    bottom: 20%;
+    bottom: 32%;
+    left: 25rem;
     color: white;
 }
 
@@ -123,7 +124,12 @@ h3{
 
 
 .logo{
- 
+ z-index: 0;
+ font-size: 10rem;
+ margin: 2rem;
+ position: relative;
+ top: -70vh;
+ left: 27vw;
   }
 
 
