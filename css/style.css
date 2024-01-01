@@ -1,9 +1,9 @@
 * {
     font-size: 62.5%;
-}
+    }
 
 
-
+/* index */
 .header{
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@
     top: -4rem;
     }
 
-li{
+.navbar li{
     background:rgb(3, 66, 102);
     background-color: rgba(1,1,1,0.2);
     margin: 1rem 1rem;
@@ -122,7 +122,6 @@ h3{
 }
 
 
-
 .logo{
  z-index: 0;
  font-size: 10rem;
@@ -137,4 +136,51 @@ footer{
     background: purple;
     width: 100%;
     height: 20vh;
+}
+
+/* souscripteurs et participations */
+
+.selection{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+
+   }
+
+.selection-filter{
+    font-size: 2rem;
+}
+
+.selection-invest{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+ 
+}
+
+.subscriber, .participations{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 32%;
+    background: rgb(182, 178, 178);
+    list-style: none;
+    border: 2px solid black;
+    font-size: 2.5rem;
+
+}
+
+.selection-participation{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+.checkbox{
+    padding: 1rem;
 }
